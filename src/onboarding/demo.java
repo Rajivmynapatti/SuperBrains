@@ -23,6 +23,8 @@ JavascriptExecutor js = ((JavascriptExecutor) driver);
 
 js.executeScript("window.scrollTo(0, document.body.scrollHeight)");
 
+System.out.println("yes i am done here");
+
 
 	
 	    List ele1=driver.findElements(By.id("et-footer-social-nav"));
